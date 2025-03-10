@@ -121,9 +121,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PeopleController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\PeopleModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -143,9 +145,25 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HTML\Cassavin.html" />
+    <Content Include="HTML\Images\anime.jpeg" />
+    <Content Include="HTML\Images\beach.jpeg" />
+    <Content Include="HTML\Images\Frans.jpg" />
+    <Content Include="HTML\Images\games.jpeg" />
+    <Content Include="HTML\Images\guitar.jpeg" />
+    <Content Include="HTML\Images\gym.jpeg" />
+    <Content Include="HTML\Images\Kea.jpg" />
+    <Content Include="HTML\Images\Khoza.jpg" />
+    <Content Include="HTML\Images\Me.jpg" />
+    <Content Include="HTML\Images\Mohale.jpg" />
+    <Content Include="HTML\Kea.html" />
+    <Content Include="HTML\Lwandile.html" />
+    <Content Include="HTML\Mohale.html" />
+    <Content Include="HTML\Wahkeni.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -177,10 +195,10 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\People\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
